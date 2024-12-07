@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class RadarSystem : MonoBehaviour
 {
@@ -9,8 +10,42 @@ public class RadarSystem : MonoBehaviour
     [SerializeField] private float radarRadius = 50f;  // El radio visual del radar en la UI
     [SerializeField] private float sphereColliderRadius = 10f;  // El radio del SphereCollider de la cápsula (el jugador)
 
+
+
+//-------------------------------------------------------FUTURAS ACTUALIZACIONES-------------------------------------------------------
+    public GameObject messageText;  //Referencia al gameObject Text - TextMeshPro "FuturasActualizacionesTEXT" del Canvas
+    public float displayTime = 3f;  //Duración del mensaje en pantalla
+    private float timer;            //Temporizador
+
+    private void OnTriggerEnter (Collider other)
+    {
+        if(other.CompareTag("Esfera")){
+            messageText.SetActive(true);            //Activa el mensaje
+            timer = displayTime;                    //Resetea el temporizador
+        }
+        Debug.Log("Trigger activado por: " + other.name);
+        
+        if (other.CompareTag("Esfera"))
+        {
+        Debug.Log("Es la esfera");
+        messageText.SetActive(true);
+        timer = displayTime;
+        }
+    }
+//--------------------------------------------------------------------------------------------------------------------------------------
+
     void Update()
     {
+
+        //-----------------------------------------------FUTURAS ACTUALIZACIONES--------------------------------------------------------
+        if (messageText.activeSelf){
+            timer -= Time.deltaTime;                //Reduce el tiempo restante
+            if (timer <= 0){
+                messageText.SetActive(false);       //Desactiva el mensaje cuando se termine el tiempo (3f)
+            }
+        }        
+        //------------------------------------------------------------------------------------------------------------------------------
+
         for (int i = 0; i < spheres.Length; i++) {
             Transform sphere = spheres[i];
             RectTransform radarDot = radarDots[i];
