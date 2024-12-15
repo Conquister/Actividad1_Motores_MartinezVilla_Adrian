@@ -1,23 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenuSceneAudioManager : MonoBehaviour
 {
+    [SerializeField] private AudioClip mainMenuMusic;           // Declaramos la variable 'mainMenuMusic' de tipo AudioClip
+    private AudioSource audioSource;                            // Declaramos la variable 'audioSource' de tipo AudioSource
 
-    [SerializeField] private AudioClip mainMenuMusic;
-    private AudioSource audioSource;
-
-    // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource != null && mainMenuMusic != null)
-        {
-            audioSource.clip = mainMenuMusic;
-            audioSource.loop = true;
-            audioSource.Play();
+        audioSource = GetComponent<AudioSource>();              // Inicializamos la variable 'audioSource' asignándole el componente AudioSource, que está en este mismo gameObject
+        if (audioSource != null && mainMenuMusic != null)       // Comprobamos que las variables 'audioSource' y 'mainMenuMusic' no sean nulas
+        {   
+            audioSource.clip = mainMenuMusic;                   // Asignamos el archivo de audio almacenado en la variable 'mainMenuMusic' a la propiedad 'clip' del componente audioSource
+            audioSource.loop = true;                            // Establecemos la propiedad 'loop' como true en el componente audioSource
+            audioSource.Play();                                 // Iniciamos la reproducción
         }    
     }
-
 }

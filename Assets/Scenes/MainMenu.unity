@@ -1810,7 +1810,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   howToPlayPopup: {fileID: 1460586046}
   volumeSlider: {fileID: 21170352}
-  startButton: {fileID: 857456849}
 --- !u!114 &1902647266
 MonoBehaviour:
   m_ObjectHideFlags: 0

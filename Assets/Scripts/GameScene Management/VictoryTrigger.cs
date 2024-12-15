@@ -1,26 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VictoryTrigger : MonoBehaviour
 {
 
-    [SerializeField] private string victorySceneName = "Victory";
+    [SerializeField] private string victorySceneName = "Victory";           // Declaramos la variable 'victorySceneName' de tipo String y la inicializamos con "Victory"
     
-    private void OnTriggerEnter (Collider other)
+    private void OnTriggerEnter (Collider other)                            // Este método se ejecuta cuando otro GameObject de la escena entra en contacto con el Compontente 'Collider' de este GameObject
     {
-        // Verificamos si el objeto que entra en el Trigger es el gameObject con el Tag Player
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))                                     // Verificamos si el GameObject que ha entrado en contacto tiene una etiqueta "Player". Es decir, si es nuestro Player 
         {
-            Debug.Log ("El Player ha entrado en el área de victoria.");
-            LoadVictoryScene();
+            LoadVictoryScene();                                             // En caso de serlo, llamamos al método LoadVictoryScene()
         }
     }
 
-    private void LoadVictoryScene()
+    private void LoadVictoryScene()                                         // Este método carga la escena Victory
     {
-        // Cargamos la escena de victoria
         SceneManager.LoadScene(victorySceneName);
     }
 }

@@ -5,28 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class VictorySceneButtonsManager : MonoBehaviour
 {
-    [SerializeField] public enum SceneNames
+    [SerializeField] public enum SceneNames                             // Creamos la estructura enum para las diferentes escenas del juego: MainMenu, Game y Victory
     {
         MainMenu,
         Game,
         Victory
     }
 
-    public void GoToMainMenu ()
+    public void GoToMainMenu ()                                         // Este método nos llevará a la escena MainMenu. Se asignará al método OnClick del gameObject Button 'MainMenuButton' de la UI
     {
-        Debug.Log ("Regresando al Main Menu...");
-        SceneManager.LoadScene (SceneNames.MainMenu.ToString());
-        ResetGameState();
+        SceneManager.LoadScene (SceneNames.MainMenu.ToString());      
+        ResetGameState();                                               // Llámamos al método ResetGameState()
     }
     
-    public void ExitGame ()
+    public void ExitGame ()                                             // Este método cierra la aplicación, pero solo en la Build. De momento no está en uso.
     {
         Debug.Log ("Cerrando el juego...");
         Application.Quit ();
     }
 
-    private void ResetGameState()
-    {
+    private void ResetGameState()                                       // Este método hace que reseteen los estados del juego. Es peligroso, pero ahora funciona para, si es el caso, al acceder de nuevo
+    {                                                                   // al MainMenu, volver a empezar el laberinto
         PlayerPrefs.DeleteAll();
         Debug.Log("Estado del juego reiniciando...");
     }

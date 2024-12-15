@@ -218,6 +218,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RewardBeam
       objectReference: {fileID: 0}
+    - target: {fileID: 5038888456858080720, guid: 8f5d1f9c9d011497eac4b99edfbe1f93,
+        type: 3}
+      propertyPath: m_TagString
+      value: RewardBeam
+      objectReference: {fileID: 0}
     - target: {fileID: 6968868282258150931, guid: 8f5d1f9c9d011497eac4b99edfbe1f93,
         type: 3}
       propertyPath: m_LocalPosition.x
