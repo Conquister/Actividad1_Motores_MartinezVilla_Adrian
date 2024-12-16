@@ -8,7 +8,6 @@ public class SphereCollection : MonoBehaviour
     [SerializeField] private GameObject muroFinal;                                  // Decelaramos la variable 'muroFinal' de tipo GameObject que hace referencia al GameObject 'MuroFinal' de la escena
     [SerializeField] private ParticleSystem successVFX;                             // Declaramos la variable 'successVFX' de tipo ParticleSystem que hace referencia al ParticleSystem 'SuccessVFX de la escena
     [SerializeField] private AudioClip rewardSound;                                 // Declaramos la variable 'rewardSound' de tipo AudioClip que hace referencia al AudioClip que se reproducirá al recoger una esfera
-    [SerializeField] private ParticleSystem rewardBeam;                             // Declaramos la variable 'rewardBeam' de tipo ParticleSystem que hace referencia al ParticleSystem que se reproducirá al recoger una esfera
     
     public GameObject pickUpMessage;                                                // Declaramos la variable pickUpMessage de tipo GameObject que hace referencia al GameObject 'PickUpMessageTEXT' de la UI
     public GameObject finalMessage;                                                 // Declaramos la variable 'finalMessage' de tipo GameObject que hace referencia al GameObject 'FinalMessageTEXT' de la UI
@@ -65,7 +64,6 @@ public class SphereCollection : MonoBehaviour
             }
         }
         
-        //Destroy(currentSphere, rewardBeam.main.duration);                                                     // Destruimos la esfera recogida
         currentSphere = null;                                                       // Limpiamos la referencia de la esfera cercana
         pickUpMessage.SetActive(false);                                             // Ocultamos el mensaje de recogida
 
