@@ -96,8 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 1dd375387d66e493bb30095dfca13c35,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: d0c805c0ebe0f4cc69e0ae39cd433204,
     type: 2}
 --- !u!196 &4
@@ -187,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7215740680867551550, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -202,6 +206,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.00000071525574
       objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8246730349341703994, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -216,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.000000776723
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -286,15 +300,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -433,10 +467,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4333435764108094272, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
@@ -458,6 +507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -476,10 +530,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX5
       objectReference: {fileID: 0}
+    - target: {fileID: 2877029934568853065, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4197354926422351198, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197354926422351198, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4859214943688415701, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
@@ -531,15 +595,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5613337538857556926, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6723144236531448943, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 6723144236531448943, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470168457698554328, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8096596114298742360, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8096596114298742360, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -554,10 +638,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 140288201451820187, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145900415952396434, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3933017705206917344, guid: 21ec9ddd829c9419e847845ef382a0ca,
         type: 3}
       propertyPath: m_Name
       value: MuroFINAL
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933017705206917344, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933017705206917344, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6285713371932212255, guid: 21ec9ddd829c9419e847845ef382a0ca,
         type: 3}
@@ -608,6 +712,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665946208118059065, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210081148659659909, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530810066090766246, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160143941163663063, guid: 21ec9ddd829c9419e847845ef382a0ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -690,15 +814,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -832,15 +976,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1138,6 +1302,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1224,30 +1403,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 647720148921231494, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: MuroX7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214509477012308420, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674620027984146991, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1267,40 +1486,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 982032315829893937, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463684241947434263, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: MuroX9 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7658549544258602279, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337123608276501623, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
@@ -1427,10 +1696,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5739834069283575680, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5714763059430149727, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4705690093865346055, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2902435399022558951, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2147795719784613289, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 305258512266973101, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de8dafa81882a4030a285fe562ff2f08,
         type: 3}
       propertyPath: m_Name
       value: Puerta_v19 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798857091765792580, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414756144790557965, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984460672044231183, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506543073509302527, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592401360930831907, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333979205160245498, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1646,15 +1980,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 1315169723172986551, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092277477536253178, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: MuroX4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7925351580983590738, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
@@ -1710,6 +2064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007306509459121165, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1847,40 +2206,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 982032315829893937, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463684241947434263, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: MuroX9 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7658549544258602279, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337123608276501623, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
@@ -2001,15 +2410,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2084,6 +2513,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuroX2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2185,20 +2629,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 661670460529866862, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747285545280291666, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3756681214157362651, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
@@ -2255,20 +2724,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4797706016551398263, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: MuroX8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2339,15 +2828,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2362,30 +2871,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 156852192331530022, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: MuroDobleX5
       objectReference: {fileID: 0}
+    - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280905483528882984, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296103902286110771, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4268510904575140516, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
@@ -2442,10 +2991,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6874060900682857434, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329033049554881723, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2472,15 +3036,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 1315169723172986551, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092277477536253178, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: MuroX4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7925351580983590738, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
@@ -2537,6 +3121,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 8007306509459121165, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2565,7 +3154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &645096844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2747,6 +3336,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2815,15 +3419,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7215740680867551550, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.772
       objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8246730349341703994, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.7370014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3180,15 +3799,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3257,6 +3896,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuroX2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3501,6 +4155,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3514,15 +4183,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 1315169723172986551, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092277477536253178, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: MuroX4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7925351580983590738, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
@@ -3578,6 +4267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007306509459121165, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3941,10 +4635,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5739834069283575680, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5714763059430149727, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4705690093865346055, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2902435399022558951, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2147795719784613289, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 305258512266973101, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de8dafa81882a4030a285fe562ff2f08,
         type: 3}
       propertyPath: m_Name
       value: Puerta_v19
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798857091765792580, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414756144790557965, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984460672044231183, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506543073509302527, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592401360930831907, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333979205160245498, guid: de8dafa81882a4030a285fe562ff2f08,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4038,6 +4797,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4062,65 +4836,140 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1181145470087705434, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2196161146368982539, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196161146368982539, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237313486352039226, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3383748437042850161, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3383748437042850161, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4203436580474590243, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203436580474590243, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5103854471115250625, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5103854471115250625, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5355377271984901070, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355377271984901070, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5551067892339796316, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5551067892339796316, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894351013034745878, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6045720538220335262, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045720538220335262, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6216760325310206391, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6216760325310206391, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6578515971632683308, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578515971632683308, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8345550419393351195, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: MuroX14
       objectReference: {fileID: 0}
+    - target: {fileID: 8345550419393351195, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8466450951885833780, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8466450951885833780, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8565425948716314966, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565425948716314966, guid: d64d401cf6c294a3583f23fb5c909f4d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8583282477215689150, guid: d64d401cf6c294a3583f23fb5c909f4d,
         type: 3}
@@ -4309,6 +5158,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4383,6 +5247,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4452,10 +5331,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4333435764108094272, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
@@ -4476,6 +5370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4551,6 +5450,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4570,20 +5484,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 661670460529866862, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747285545280291666, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3756681214157362651, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
@@ -4640,20 +5579,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4797706016551398263, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: MuroX8
       objectReference: {fileID: 0}
+    - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4829,10 +5788,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2877029934568853065, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4197354926422351198, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197354926422351198, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4859214943688415701, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
@@ -4884,15 +5853,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5613337538857556926, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6723144236531448943, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 6723144236531448943, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470168457698554328, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8096596114298742360, guid: d442455620e544315b87ee9f03aad501,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8096596114298742360, guid: d442455620e544315b87ee9f03aad501,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5094,6 +6083,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuroX2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5481,30 +6485,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 647720148921231494, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: MuroX7 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214509477012308420, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674620027984146991, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5569,15 +6613,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5873,30 +6937,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 647720148921231494, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: MuroX7 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214509477012308420, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674620027984146991, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5917,30 +7021,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 156852192331530022, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: MuroDobleX5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280905483528882984, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296103902286110771, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4268510904575140516, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
@@ -5997,10 +7141,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6874060900682857434, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329033049554881723, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6065,15 +7224,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6088,15 +7267,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 1315169723172986551, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: muroCEN(1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092277477536253178, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: MuroX4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7925351580983590738, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
@@ -6152,6 +7351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007306509459121165, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6314,6 +7518,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6381,6 +7600,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuroX2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6451,15 +7685,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6549,30 +7803,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 156852192331530022, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 301747934984067402, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: MuroDobleX5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1129967109736942862, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280905483528882984, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644322569367417964, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296103902286110771, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3675526387338772514, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3957271565441406637, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4268510904575140516, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
@@ -6629,10 +7923,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6874060900682857434, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329033049554881723, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828973471743753807, guid: c8876691730b44da3826f8a88d620f6c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6845,40 +8154,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 982032315829893937, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463684241947434263, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661684841281731243, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
       objectReference: {fileID: 0}
+    - target: {fileID: 4669662025056265906, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: MuroX9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4915258568192501086, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5007357202577997705, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104802046135656107, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6560508950680543160, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7658549544258602279, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889959105677600766, guid: db6a4522b42ca4346927fbbce35203dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337123608276501623, guid: db6a4522b42ca4346927fbbce35203dd,
         type: 3}
@@ -7028,7 +8387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1839625601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7175,15 +8534,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7198,15 +8577,35 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 1315169723172986551, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685247141897991769, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6092277477536253178, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
       propertyPath: m_Name
       value: MuroX4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579586089521277764, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7925351580983590738, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
         type: 3}
@@ -7262,6 +8661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007306509459121165, guid: 26ed7e4b2d2504a1e9aef0002789fd76,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7331,6 +8735,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7350,20 +8769,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1962727167}
     m_Modifications:
+    - target: {fileID: 661670460529866862, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297128104644017445, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3034879989216270814, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3079116925192255682, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3747285545280291666, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3756681214157362651, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
@@ -7420,20 +8864,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4797706016551398263, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098465736441246302, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: MuroX8 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7273950879482825257, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149577305187336234, guid: 6daed97afda8b478c9566c2f0aa45231,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7503,30 +8967,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 647720148921231494, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: MuroX7 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554527975083480137, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3729859768382076756, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5088231066692381876, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5622380634672028706, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214509477012308420, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674620027984146991, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018456324138901787, guid: fb9422805903c4cf2afdbe6513666035,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7547,7 +9051,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1962727167
 Transform:
@@ -7558,7 +9062,7 @@ Transform:
   m_GameObject: {fileID: 1962727166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 1.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7634,25 +9138,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 698335353824610858, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 843135655050426373, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 843135655050426373, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 923293913527638368, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 923293913527638368, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303123007671121745, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1812333780019468317, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1812333780019468317, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2829195158050822956, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2829195158050822956, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3746795723644160431, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
@@ -7709,20 +9243,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5368498474500057399, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6627705335842937259, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627705335842937259, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763507746634251556, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7792847182070153520, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: MuroX10
       objectReference: {fileID: 0}
+    - target: {fileID: 7792847182070153520, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9185653191828542161, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185653191828542161, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7934,15 +9493,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7962,25 +9541,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 698335353824610858, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 843135655050426373, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 843135655050426373, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 923293913527638368, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 923293913527638368, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303123007671121745, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1812333780019468317, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1812333780019468317, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2829195158050822956, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2829195158050822956, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3746795723644160431, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
@@ -8037,20 +9646,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: muroCEN (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5368498474500057399, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6627705335842937259, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627705335842937259, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763507746634251556, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7792847182070153520, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: MuroX10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7792847182070153520, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9185653191828542161, guid: ef37846324fcd42649b5bc280a9a5a20,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185653191828542161, guid: ef37846324fcd42649b5bc280a9a5a20,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8119,6 +9753,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuroX2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8225,6 +9874,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuroX2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6783338285066280922, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027848063114691460, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735176933513471360, guid: 4f9c12d95c1324a8895f7cdeac7d1066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8294,15 +9958,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1031499757574917761, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: MuroX3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3740180917629292741, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992621882050523642, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
         type: 3}
       propertyPath: m_Name
       value: muroCEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173646868057778233, guid: 3851f7efed00b434d8c1600fb8723632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8953,6 +10637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 8341194240148654417, guid: 76b2340894ccd4ebbb69f5ac6e76b9de,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
