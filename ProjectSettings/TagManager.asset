@@ -6,16 +6,21 @@ TagManager:
   tags:
   - Esfera
   - RewardBeam
+  - Water
+  - Lava
+  - Limits
+  - Enemy
+  - Potion
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - PowerUp
+  - Walls
   - 
   - 
   - 
