@@ -32,7 +32,7 @@ public class SphereCollectorManager : ScriptableObject
     {
         placedSpheres ++;
         Debug.Log("CollectedSphere llamado. placedSpheres = " + placedSpheres);
-        if (placedSpheres >= totalSpheres)
+        if (placedSpheres >= 0)
         {
             Debug.Log ("Lanzo evento para que el enemy venga a por mí");
             OnAllSpheresPlaced?.Invoke();

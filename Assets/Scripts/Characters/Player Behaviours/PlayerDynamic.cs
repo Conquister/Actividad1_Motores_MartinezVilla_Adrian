@@ -32,8 +32,8 @@ public class PlayerDynamic : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         audioSource = GetComponent<AudioSource>();
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
